@@ -11,7 +11,7 @@ At every point, the value of the function is calculated and checked it with the 
 
 **Analysis** : Observing the minimum values of 100 iterations, we see that the function reaches the original minimum value of Ackley's function only a handful of times (<10), we see that most of the times, it terminates at a value of 20.
 
-![Hill Climbing Algorithm](./figure_1.jpeg)
+![Hill Climbing Algorithm](./figure_2.jpeg)
 
 *We can clearly see that, Hill Climbing Algorithm gets struck at a local minimum rather than reaching Global Optimum every time.*
 
@@ -33,4 +33,6 @@ At every step, we compare the minimum value of the iteration with the minimum fo
 
 *Using this algorithm we can observe that, we reach the global optimal value -22.7 obtained at (0,0) almost everytime. So it is clear that it doesn't get struck at local optima's now and then, as it is continuously learning from the previous values as we are generating values from the parents.*
 
-![Evolutionary Algorithm](./figure_2.jpeg)
+![Evolutionary Algorithm](./figure_1.jpeg)
+
+Analysis for Travelling Salesman Problem is done in README2.txt
